@@ -19,7 +19,7 @@ namespace LoFox {
 
 	Application::Application(const ApplicationSpec& spec)
 		: m_Spec(spec) {
-
+		// Test comment
 		LF_CORE_ASSERT(!s_Instance, "Application already exists!");
 		s_Instance = this;
 
